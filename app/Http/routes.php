@@ -11,8 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', 'EmbeddedAppController@home'); // Replace with your preferred view for the '/' path
 Route::get('embedded', 'EmbeddedAppController@home');
