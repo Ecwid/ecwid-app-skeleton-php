@@ -13,8 +13,9 @@ The main "Home" view is implemented in the app/resources/views/embedded/home.bla
 
 ### Configuration
 Add your Ecwid app namespace and the app secret key into `.env` file inside the app directory as follows:
-`ECWID_APP_NAMESPACE=your-app-namespace`
-`ECWID_APP_SECRET_KEY=yourappsecretkey123`
+
+- `ECWID_APP_NAMESPACE=your-app-namespace`
+- `ECWID_APP_SECRET_KEY=yourappsecretkey123`
 
 ### Building your application on top of this skeleton
 Please see the Laravel framework documentation to understand the app structure and development flow: [http://laravel.com/docs/5.1/](http://laravel.com/docs/5.1/)
